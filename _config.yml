@@ -1,4 +1,3 @@
-remote_theme: "mmistakes/minimal-mistakes"
-
+theme: jekyll-theme-minimal
 title: "Rafael Widjajahakim"
 description: "Healthcare-focused data science portfolio"
