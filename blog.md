@@ -2,6 +2,7 @@
 layout: page
 title: "Blog"
 permalink: /blog/
+theme: jekyll-theme-minimal
 ---
 
 ## Blog
