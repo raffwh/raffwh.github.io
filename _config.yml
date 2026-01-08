@@ -30,7 +30,7 @@ collections:
     output: true
 
 # Skin
-minimal_mistakes_skin: "air"   # or "default", "contrast", "dark", "neon", etc.
+minimal_mistakes_skin: "contrast"   # or "default", "air", "dark", "neon", etc.
 
 # Defaults: apply layout automatically
 defaults:
