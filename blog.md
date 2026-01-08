@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: posts
 title: "Blog"
 permalink: /blog/
-theme: jekyll-theme-minimal
+author_profile: true
 ---
-
 ## Blog
 
 {% for post in site.posts %}
