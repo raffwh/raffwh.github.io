@@ -9,3 +9,8 @@ $link-color: #3f4f11;
 .masthead__menu-item a.active {
   border-bottom: 2px solid currentColor;
 }
+
+.layout--single .page__content {
+  font-size: 1.05em;
+  line-height: 1.7;
+}
