@@ -1,3 +1,41 @@
-theme: jekyll-theme-minimal
-title: "Rafael Widjajahakim"
-description: "Healthcare-focused data science portfolio"
+title: "Rafael Widjajahakim's portfolio"
+description: "Quick blog and portfolio on medical data science or anything else"
+url: "https://raffwh.github.io"   
+baseurl: ""
+
+# Minimal Mistakes as a remote theme:
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Basic info (used in footer/sidebar)
+author:
+  name: "Rafael Widjajahakim"
+  bio: "Healthcare-driven data scientist in Boston."
+  location: "Boston, MA"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/raffwh"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/rafaelwidjajahakim"
+
+# Collections (optional, you can start without)
+collections:
+  posts:
+    output: true
+
+# Defaults: apply layout automatically
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
