@@ -7,3 +7,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Serif";
   line-height: 1.7;
 }
+
+.masthead__menu-item a.active {
+  border-bottom: 2px solid currentColor;   // underline
+}
