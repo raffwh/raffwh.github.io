@@ -5,6 +5,11 @@ baseurl: ""
 
 # Minimal Mistakes as a remote theme:
 remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
 
 # Basic info (used in footer/sidebar)
 author:
