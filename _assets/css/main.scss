@@ -5,3 +5,6 @@
 
 @import "minimal-mistakes";
 
+.masthead__menu-item a.active {
+  border-bottom: 2px solid currentColor;
+}
