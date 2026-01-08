@@ -24,6 +24,9 @@ collections:
   posts:
     output: true
 
+# Skin
+minimal_mistakes_skin: "air"   # or "default", "contrast", "dark", "neon", etc.
+
 # Defaults: apply layout automatically
 defaults:
   - scope:
