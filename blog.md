@@ -4,4 +4,8 @@ title: "Blog"
 permalink: /blog/
 ---
 
-Here you can list or link to posts.
+## Blog
+
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}) – {{ post.date | date: "%Y-%m-%d" }}
+{% endfor %}
