@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Looking Back At The Internship"
+theme: jekyll-theme-minimal
 ---
 
 Overall:
