@@ -1,11 +1,14 @@
 ---
 ---
-$link-color: #3f4f11;
+
 
 @charset "utf-8";
 
 @import "minimal-mistakes";
 
+
+
+$link-color: #3f4f11;
 .masthead__menu-item a.active {
   border-bottom: 2px solid currentColor;
 }
