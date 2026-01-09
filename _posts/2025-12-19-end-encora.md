@@ -1,8 +1,8 @@
 ---
 title: end 
 author_profile: true
-read_time: true
-toc: true
+read_time: false
+toc: false
 toc_sticky: true
 ---
 
