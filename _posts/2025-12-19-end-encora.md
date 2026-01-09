@@ -1,7 +1,9 @@
 ---
-layout: post
-title: "Looking Back At The Internship"
-theme: jekyll-theme-minimal
+title: end 
+author_profile: true
+read_time: true
+toc: true
+toc_sticky: true
 ---
 
 Overall:
