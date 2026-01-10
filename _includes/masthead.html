@@ -1,32 +1,23 @@
-{% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% assign site_logo = site.logo | relative_url %}
 
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-     <nav id="site-nav" class="greedy-nav">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
-
-      <ul class="visible-links">
-        {% for link in site.data.navigation.main %}
-          {% assign url = link.url | relative_url %}
-          {% assign is_current = false %}
-          {% if page.url == url or page.url == link.url %}
-            {% assign is_current = true %}
-          {% endif %}
-    
-          <li class="masthead__menu-item">
-            <a href="{{ url }}" class="{% if is_current %}is-current{% endif %}">
-              {{ link.title }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    
-      <button class="greedy-nav__toggle hidden" type="button">
-        <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Menu" }}</span>
-        <div class="navicon"></div>
-      </button>
-    </nav>
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      {% if page.url == '/' %}
+        <h1 class="site-title">
+          <a href="{{ '/' | relative_url }}">
+            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
+            <span>{{ site.title | escape }}</span>
+          </a>
+        </h1>
+      {% else %}
+        <p class="site-title">
+          <a href="{{ '/' | relative_url }}">
+            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
+            <span>{{ site.title | escape }}</span>
+          </a>
+        </p>
+      {% endif %}
     </div>
   </div>
-</div>
+</header>
