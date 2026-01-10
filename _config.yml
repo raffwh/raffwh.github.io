@@ -37,8 +37,9 @@ algolia:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-basically-basic
-plugins: # previsously gems
+remote_theme: mmistakes/jekyll-theme-basically-basic
+plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
