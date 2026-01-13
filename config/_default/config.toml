@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://raffwh.github.io"
+baseurl = "https://raffwh.github.io/"
 languageCode = "en-us"
 title = "Rafael Widjajahakim - Sample Works"
 
