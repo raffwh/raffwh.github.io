@@ -15,6 +15,7 @@ url = "https://github.com/raffwh"
 [social.params]
 icon = "brand-github"
 
+<<<<<<< HEAD
 
 # [[social]]
 # identifier = "linkedin"
@@ -23,3 +24,5 @@ icon = "brand-github"
 
 # [social.params]
 # icon = "brand-linkedin"
+=======
+>>>>>>> 513962c (test update)
