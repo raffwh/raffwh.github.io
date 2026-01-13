@@ -1,7 +1,7 @@
 # Change baseurl before deploy
 baseurl = "https://raffwh.github.io"
 languageCode = "en-us"
-title = "Hugo Theme Stack Starter"
+title = "Rafael Widjajahakim - Sample Works"
 
 # Theme i18n support
 defaultContentLanguage = "en"
@@ -10,7 +10,16 @@ defaultContentLanguage = "en"
 hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
-disqusShortname = "hugo-theme-stack"
+#disqusShortname = "hugo-theme-stack"
+enabled = false
+provider = ""
+
+
+[social]
+github = "raffwh.github.com"
+linkedin = "linkedin.com/in/rafaelwidjajahakim"
+
+
 
 [pagination]
 pagerSize = 5
