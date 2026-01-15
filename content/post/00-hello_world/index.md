@@ -21,6 +21,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
 ---
 
 
+
 # BACKGROUND STORY
 
 Creating a portfolio website has been a personal project todolist for so many years. 
@@ -54,3 +55,15 @@ So, I guess it is time to finally check that todolist... except,...
 
 # MORE HEADACHE
 
+
+
+
+ <!--- Wrap text --->
+ <!-- Wrap text -->
+ <!--# comment -->
+
+
+ {::comment}comment {:/comment}
+
+
+ [comment]: # (This actually is the most platform independent comment)
