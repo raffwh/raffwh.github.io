@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Rafael Widjajahakim - Sample Works</title><link>https://raffwh.github.io/categories/blog/</link><description>Recent content in Blog on Rafael Widjajahakim - Sample Works</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://raffwh.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World of Website Building</title><link>https://raffwh.github.io/p/hello-world/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/p/hello-world/</guid><description>&lt;img src="https://raffwh.github.io/p/hello-world/cover.jpg" alt="Featured image of post Hello World of Website Building" /&gt;&lt;h1 id="background-story"&gt;BACKGROUND STORY
+&lt;/h1&gt;&lt;p&gt;Creating a portfolio website has been a personal project todolist for so many years.
+But, there were a lot of obstacles (mostly personal motivations) to clearly make one.&lt;/p&gt;
+&lt;p&gt;The more legit reasons are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As many typical website builders (Wix, Squarespace, etc.) will require cost to host, which one is worth it to try for my very early stage build? Most of these are for eCommerce, and I don&amp;rsquo;t need many of these tools.&lt;/li&gt;
+&lt;li&gt;Is there a pre-made theme among these websites that fit to my need?&lt;/li&gt;
+&lt;li&gt;How to organize the website for what I can present/provide? I am not in Art &amp;amp; Design field where I have many pictures or showcase products.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="a-more-advanced-path-why-run-before-walk"&gt;A MORE ADVANCED PATH (why run before walk)
+&lt;/h2&gt;&lt;p&gt;Sometime ago, I found portfolio website from someone in tech. The theme was not what I have seen in common website builders.
+At the footer of the page, it says &amp;lsquo;Built with Hugo, through Netlify&amp;quot;.
+At that time, I have not coded with Python, Linux, or anything. I was not even familiar with Github etc.
+I just want to use that theme.&lt;/p&gt;
+&lt;p&gt;So, I tried to follow any articles I could find.
+But I could not finish testing and got a job that was not that technical anyway.
+So I thought, I wouldn&amp;rsquo;t need it anyway; so I stopped.&lt;/p&gt;
+&lt;h2 id="now"&gt;NOW
+&lt;/h2&gt;&lt;p&gt;Fast forward, I found out that Github can host a simple static website through the pages.
+So, I guess it is time to finally check that todolist&amp;hellip; except,&amp;hellip;&lt;/p&gt;
+&lt;h1 id="more-headache"&gt;MORE HEADACHE
+&lt;/h1&gt; &lt;!--- Wrap text ---&gt;
+&lt;!-- Wrap text --&gt;
+&lt;!--# comment --&gt;
+&lt;p&gt;{::comment}comment {:/comment}&lt;/p&gt;</description></item><item><title>Readme for Excel file</title><link>https://raffwh.github.io/p/readme-excel/</link><pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/p/readme-excel/</guid><description>&lt;h1 id="background-story"&gt;BACKGROUND STORY
+&lt;/h1&gt;&lt;p&gt;While data analytic work now have plenty of platform and tools, many business are still using Excel as their main program/software/app.&lt;/p&gt;
+&lt;p&gt;Some of my works used Excel for a simple dashboard or even a work report.
+Sometimes I saw some Excel dashboard that is quite complicated and I have seen my colleagues were confused on how to use it.&lt;/p&gt;
+&lt;p&gt;In other cases, we received different datasets in Excel files. They could be a new data or just a transformed version of the larger data.
+But sometimes, we received the files almost every day due to the nature of the project.
+This has caused some confusions on what the data is about, or worse, the version of the revision (when the filename itself does not tell you about it).&lt;/p&gt;
+&lt;h1 id="solution"&gt;SOLUTION
+&lt;/h1&gt;&lt;p&gt;We tried to duplicate how a good data science project will have a README file.
+But for Excel, we can always have one tab for this readme, while the other tab is the content of the file.&lt;/p&gt;
+&lt;!--# comment --&gt;</description></item></channel></rss>
