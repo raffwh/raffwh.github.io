@@ -40,9 +40,9 @@ tags : [
 # tl;dr
 
 > Basically, AREDS clinical trial grading data was found to be flip-floping for our analysis purposes. 
-> We defined a certain criteria for our research that is unique but could cause confusion due to the complexity of the formula or uncommon in this dataset.
+> We defined a certain criteria for our research that is unique but could cause confusion due to the complexity of the formula or uncommon technique in this dataset.
 > - To address this, I created a simple visualization to help explain the flip-flop issue, and the result using our novel code.
-> - Another good thing of this visualization is, the code to make this graph can easily & quickly be modified depending if reviewers/leaders want to see a different version.
+> - Another good thing about this visualization is that, the code to make this graph can easily & quickly be modified depending if reviewers/leaders want to see a different version.
 > 
 > The original visualization was created using R + ggplot2.
 
@@ -124,7 +124,9 @@ but then went back to non-advanced stage.
 
 ## Other version
 
-![GRAPH](./sevscale_supFig_year_20201113_g.webp)
+<div align="left">
+  <img src="./sevscale_supFig_year_20200730_f.webp" alt="Figure" width="40%">
+</div>
 
 
 
