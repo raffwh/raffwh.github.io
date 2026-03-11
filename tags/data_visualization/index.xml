@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data_visualization on Rafael Widjajahakim - Sample Works</title><link>https://raffwh.github.io/tags/data_visualization/</link><description>Recent content in Data_visualization on Rafael Widjajahakim - Sample Works</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://raffwh.github.io/tags/data_visualization/index.xml" rel="self" type="application/rss+xml"/><item><title>Visualizing abstract formula for research paper</title><link>https://raffwh.github.io/p/areds-score-flipflop/</link><pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/p/areds-score-flipflop/</guid><description>&lt;img src="https://raffwh.github.io/p/areds-score-flipflop/sevscale_supFig_year_20201113_g.webp" alt="Featured image of post Visualizing abstract formula for research paper" /&gt;&lt;head&gt;
+&lt;title&gt;Line &lt;/title&gt;
+&lt;style&gt;
+/* Style for a dark horizontal line */
+.top-line {
+/* border-top: 1px solid #000; */
+height: 3px;
+width: 100%;
+background-color: #222;
+margin: 20px 0;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;h1 id="tldr"&gt;tl;dr
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Basically, AREDS clinical trial grading data was found to be flip-floping for our analysis purposes.
+We defined a certain criteria for our research that is unique but could cause confusion due to the complexity of the formula or uncommon technique in this dataset.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To address this, I created a simple visualization to help explain the flip-flop issue, and the result using our novel code.&lt;/li&gt;
+&lt;li&gt;Another good thing about this visualization is that, the code to make this graph can easily &amp;amp; quickly be modified depending if reviewers/leaders want to see a different version.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The original visualization was created using R + ggplot2.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr class="top-line"&gt;
+&lt;h1 id="background-story"&gt;BACKGROUND STORY
+&lt;/h1&gt;&lt;h2 id="areds-1-overview"&gt;AREDS &lt;strong&gt;1&lt;/strong&gt; overview
+&lt;/h2&gt;&lt;p&gt;AREDS was a multiyear longitudinal clinical trial on age-related macular degeneration, looking to see the effect of supplements on the progression of the disease. During the first AREDS trial, the grading system utilized 9 steps plus progression to the advanced AMD.&lt;/p&gt;
+&lt;p&gt;Many papers have been published and explained the trial design and results. So I won&amp;rsquo;t go into details here.&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;h2 id="research-objective"&gt;Research Objective
+&lt;/h2&gt;&lt;p&gt;While many studies now used the simplified scale, we used the full scale to create a more granular analysis on the time-based progression of the disease.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Severity scale 1-8&lt;/strong&gt;: was for the non-advanced AMD grade.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Severity scale 9&lt;/strong&gt;: was for the advanced AMD grade.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;modified severity scale 9, to include 10, 11, 12&lt;/strong&gt;: was our modification to include GA and NV as part of the continuous scale.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;h2 id="story"&gt;Story
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Since we analyzed it in very granular level, we hit an issue where the count of advanced AMD was different between timepoints.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Upon further investigation, we found that there were many cases where an eye was graded as progressed to advanced stage
+but then went back to non-advanced stage.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Since we wanted to analyze this progression like survival analysis, we had to make sure that a progressed eye should not go back to non-advanced stage.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In some cases, the advanced grade only occured once in the middle of the study period and then back to very early stage (scale &amp;lt;6).&lt;/li&gt;
+&lt;li&gt;In other cases, the time when the eye progressed to advanced stage occurred multiple times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;So, we developed a criteria to only select the eye as progressed eye, when the grade or status had passed the progression status/scale, at least at 2 time points in a sequence.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then we realized the system was quite abstract.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;So, I developed a visualization to show the progression and the flip flopping issue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;h1 id="graph-preview"&gt;GRAPH PREVIEW
+&lt;/h1&gt;&lt;!-- centered, controlled width --&gt;
+&lt;div align="left"&gt;
+&lt;img src="./sevscale_supFig_year_20201113_g.webp" alt="Figure" width="70%"&gt;
+&lt;/div&gt;
+&lt;h3 id="understanding-the-graph"&gt;Understanding the graph:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The graph shows the typical grading for the subjects in AREDS 1 trial.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The usual grade was taken after baseline visit was within 2 years.&lt;/li&gt;
+&lt;li&gt;Different subjects had different total follow-up time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The main issue is represented on ID 5, 6, and 7 (eye ID, not the same as the AREDS ID, the replacement is just for better visualization).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eye went to advanced stage on 2nd grading (scale 11), but went back to low (scale 4) on the 3rd visit. It even reached healthy status (scale 1) on the 5th visit.&lt;/li&gt;
+&lt;li&gt;We decided that on these cases, the progression could be due to some human errors or study design error (blinded graders).&lt;/li&gt;
+&lt;li&gt;These cases were the reason we developed a different criteria in defining when an eye was progressed to advanced stage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id="the-next-few-cases-are-representing-how-we-selected-the-time-of-the-progression"&gt;The next few cases are representing how we selected the time of the progression.
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Eye 11 is a good example on how we skip the first progression (scale 11) as the following grades were back to non-advanced stage.&lt;/li&gt;
+&lt;li&gt;When the eye finally had advanced stage grade back to back, we defined that this was a true progression.&lt;/li&gt;
+&lt;li&gt;But instead of selecting the first grade, we chose the second timepoint for the true termination point.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="other-version"&gt;Other version
+&lt;/h2&gt;&lt;div align="left"&gt;
+&lt;img src="./sevscale_supFig_year_20200730_f.webp" alt="Figure" width="40%"&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h1 id="conclusion"&gt;CONCLUSION
+&lt;/h1&gt;&lt;p&gt;Snippet for the R code is in &lt;a class="link" href="https://github.com/raffwh/work_archive--AREDS1_score_visualization" target="_blank" rel="noopener"
+&gt;my github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The code originally was developed for our internal meeting where we wanted to view and compare individual ID/grades when we came across some issues.
+So, it was originally created so that we could quickly review each id and the code has more
+features such as multiple progression criteria.&lt;/p&gt;
+&lt;p&gt;We simplified the visualization a bit for the publication purpose.&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id="citation"&gt;CITATION
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;Seddon JM, Widjajahakim R, Rosner B. Rare and Common Genetic Variants, Smoking, and Body Mass Index: Progression and Earlier Age of Developing Advanced Age-Related Macular Degeneration. Invest Ophthalmol Vis Sci. 2020;61(14):32. doi:10.1167/iovs.61.14.32
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

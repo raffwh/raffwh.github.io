@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Rafael Widjajahakim - Sample Works</title><link>https://raffwh.github.io/post/</link><description>Recent content in Posts on Rafael Widjajahakim - Sample Works</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://raffwh.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World of Website Building</title><link>https://raffwh.github.io/p/hello-world/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/p/hello-world/</guid><description>&lt;img src="https://raffwh.github.io/p/hello-world/cover.jpg" alt="Featured image of post Hello World of Website Building" /&gt;&lt;h1 id="background-story"&gt;BACKGROUND STORY
+&lt;/h1&gt;&lt;p&gt;Creating a portfolio website has been a personal project todolist for so many years.
+But, there were a lot of obstacles (mostly personal motivations) to clearly make one.&lt;/p&gt;
+&lt;p&gt;The more legit reasons are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As many typical website builders (Wix, Squarespace, etc.) will require cost to host, which one is worth it to try for my very early stage build? Most of these are for eCommerce, and I don&amp;rsquo;t need many of these tools.&lt;/li&gt;
+&lt;li&gt;Is there a pre-made theme among these websites that fit to my need?&lt;/li&gt;
+&lt;li&gt;How to organize the website for what I can present/provide? I am not in Art &amp;amp; Design field where I have many pictures or showcase products.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="a-more-advanced-path-why-run-before-walk"&gt;A MORE ADVANCED PATH (why run before walk)
+&lt;/h2&gt;&lt;p&gt;Sometime ago, I found portfolio website from someone in tech. The theme was not what I have seen in common website builders.
+At the footer of the page, it says &amp;lsquo;Built with Hugo, through Netlify&amp;quot;.
+At that time, I have not coded with Python, Linux, or anything. I was not even familiar with Github etc.
+I just want to use that theme.&lt;/p&gt;
+&lt;p&gt;So, I tried to follow any articles I could find.
+But I could not finish testing and got a job that was not that technical anyway.
+So I thought, I wouldn&amp;rsquo;t need it anyway; so I stopped.&lt;/p&gt;
+&lt;h2 id="now"&gt;NOW
+&lt;/h2&gt;&lt;p&gt;Fast forward, I found out that Github can host a simple static website through the pages.
+So, I guess it is time to finally check that todolist&amp;hellip; except,&amp;hellip;&lt;/p&gt;
+&lt;h1 id="more-headache"&gt;MORE HEADACHE
+&lt;/h1&gt; &lt;!--- Wrap text ---&gt;
+&lt;!-- Wrap text --&gt;
+&lt;!--# comment --&gt;
+&lt;p&gt;{::comment}comment {:/comment}&lt;/p&gt;</description></item><item><title>Visualizing abstract formula for research paper</title><link>https://raffwh.github.io/p/areds-score-flipflop/</link><pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/p/areds-score-flipflop/</guid><description>&lt;img src="https://raffwh.github.io/p/areds-score-flipflop/sevscale_supFig_year_20201113_g.webp" alt="Featured image of post Visualizing abstract formula for research paper" /&gt;&lt;head&gt;
+&lt;title&gt;Line &lt;/title&gt;
+&lt;style&gt;
+/* Style for a dark horizontal line */
+.top-line {
+/* border-top: 1px solid #000; */
+height: 3px;
+width: 100%;
+background-color: #222;
+margin: 20px 0;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;h1 id="tldr"&gt;tl;dr
+&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Basically, AREDS clinical trial grading data was found to be flip-floping for our analysis purposes.
+We defined a certain criteria for our research that is unique but could cause confusion due to the complexity of the formula or uncommon technique in this dataset.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To address this, I created a simple visualization to help explain the flip-flop issue, and the result using our novel code.&lt;/li&gt;
+&lt;li&gt;Another good thing about this visualization is that, the code to make this graph can easily &amp;amp; quickly be modified depending if reviewers/leaders want to see a different version.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The original visualization was created using R + ggplot2.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr class="top-line"&gt;
+&lt;h1 id="background-story"&gt;BACKGROUND STORY
+&lt;/h1&gt;&lt;h2 id="areds-1-overview"&gt;AREDS &lt;strong&gt;1&lt;/strong&gt; overview
+&lt;/h2&gt;&lt;p&gt;AREDS was a multiyear longitudinal clinical trial on age-related macular degeneration, looking to see the effect of supplements on the progression of the disease. During the first AREDS trial, the grading system utilized 9 steps plus progression to the advanced AMD.&lt;/p&gt;
+&lt;p&gt;Many papers have been published and explained the trial design and results. So I won&amp;rsquo;t go into details here.&lt;/p&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;h2 id="research-objective"&gt;Research Objective
+&lt;/h2&gt;&lt;p&gt;While many studies now used the simplified scale, we used the full scale to create a more granular analysis on the time-based progression of the disease.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Severity scale 1-8&lt;/strong&gt;: was for the non-advanced AMD grade.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Severity scale 9&lt;/strong&gt;: was for the advanced AMD grade.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;modified severity scale 9, to include 10, 11, 12&lt;/strong&gt;: was our modification to include GA and NV as part of the continuous scale.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;h2 id="story"&gt;Story
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Since we analyzed it in very granular level, we hit an issue where the count of advanced AMD was different between timepoints.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Upon further investigation, we found that there were many cases where an eye was graded as progressed to advanced stage
+but then went back to non-advanced stage.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Since we wanted to analyze this progression like survival analysis, we had to make sure that a progressed eye should not go back to non-advanced stage.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In some cases, the advanced grade only occured once in the middle of the study period and then back to very early stage (scale &amp;lt;6).&lt;/li&gt;
+&lt;li&gt;In other cases, the time when the eye progressed to advanced stage occurred multiple times.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;So, we developed a criteria to only select the eye as progressed eye, when the grade or status had passed the progression status/scale, at least at 2 time points in a sequence.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Then we realized the system was quite abstract.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;So, I developed a visualization to show the progression and the flip flopping issue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+&lt;h1 id="graph-preview"&gt;GRAPH PREVIEW
+&lt;/h1&gt;&lt;!-- centered, controlled width --&gt;
+&lt;div align="left"&gt;
+&lt;img src="./sevscale_supFig_year_20201113_g.webp" alt="Figure" width="70%"&gt;
+&lt;/div&gt;
+&lt;h3 id="understanding-the-graph"&gt;Understanding the graph:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The graph shows the typical grading for the subjects in AREDS 1 trial.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The usual grade was taken after baseline visit was within 2 years.&lt;/li&gt;
+&lt;li&gt;Different subjects had different total follow-up time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The main issue is represented on ID 5, 6, and 7 (eye ID, not the same as the AREDS ID, the replacement is just for better visualization).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eye went to advanced stage on 2nd grading (scale 11), but went back to low (scale 4) on the 3rd visit. It even reached healthy status (scale 1) on the 5th visit.&lt;/li&gt;
+&lt;li&gt;We decided that on these cases, the progression could be due to some human errors or study design error (blinded graders).&lt;/li&gt;
+&lt;li&gt;These cases were the reason we developed a different criteria in defining when an eye was progressed to advanced stage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h2 id="the-next-few-cases-are-representing-how-we-selected-the-time-of-the-progression"&gt;The next few cases are representing how we selected the time of the progression.
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Eye 11 is a good example on how we skip the first progression (scale 11) as the following grades were back to non-advanced stage.&lt;/li&gt;
+&lt;li&gt;When the eye finally had advanced stage grade back to back, we defined that this was a true progression.&lt;/li&gt;
+&lt;li&gt;But instead of selecting the first grade, we chose the second timepoint for the true termination point.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="other-version"&gt;Other version
+&lt;/h2&gt;&lt;div align="left"&gt;
+&lt;img src="./sevscale_supFig_year_20200730_f.webp" alt="Figure" width="40%"&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h1 id="conclusion"&gt;CONCLUSION
+&lt;/h1&gt;&lt;p&gt;Snippet for the R code is in &lt;a class="link" href="https://github.com/raffwh/work_archive--AREDS1_score_visualization" target="_blank" rel="noopener"
+&gt;my github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The code originally was developed for our internal meeting where we wanted to view and compare individual ID/grades when we came across some issues.
+So, it was originally created so that we could quickly review each id and the code has more
+features such as multiple progression criteria.&lt;/p&gt;
+&lt;p&gt;We simplified the visualization a bit for the publication purpose.&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id="citation"&gt;CITATION
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;Seddon JM, Widjajahakim R, Rosner B. Rare and Common Genetic Variants, Smoking, and Body Mass Index: Progression and Earlier Age of Developing Advanced Age-Related Macular Degeneration. Invest Ophthalmol Vis Sci. 2020;61(14):32. doi:10.1167/iovs.61.14.32
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Eye Center Logo 2021</title><link>https://raffwh.github.io/p/eye-center-logo-2021/</link><pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/p/eye-center-logo-2021/</guid><description>&lt;img src="https://raffwh.github.io/p/eye-center-logo-2021/art_2.jpg" alt="Featured image of post Eye Center Logo 2021" /&gt;&lt;h1 id="the-story"&gt;THE STORY
+&lt;/h1&gt;&lt;p&gt;When I was working at UMass Medical School, the Ophthalmology Department was looking to update the department logo.
+Somehow I was having design fever again and wanted to dust off my design skill.
+I have been involved in my lab&amp;rsquo;s website and knew many people in the department, so why not.&lt;/p&gt;
+&lt;h1 id="design-idea--thinking"&gt;DESIGN IDEA / THINKING
+&lt;/h1&gt;&lt;h2 id="icon--base-design"&gt;ICON / BASE DESIGN
+&lt;/h2&gt;&lt;p&gt;Our lab (and many other research-side teams) has several genetic projects.
+I was looking into how to merge / mix / assimilate something that is perceived as genetic with something that is like an eye.&lt;/p&gt;
+&lt;h3 id="genetic"&gt;GENETIC
+&lt;/h3&gt;&lt;p&gt;Few ideas I had about some visuals that are common in genetic studies are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Blots (like western blot, Southern blot, northwestern blot, etc.)&lt;/li&gt;
+&lt;li&gt;Marking of mutations in a chromosome&lt;/li&gt;
+&lt;li&gt;Exon splices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="eye"&gt;EYE
+&lt;/h3&gt;&lt;p&gt;I guess there is not much variety or there is no need for an out-of-the-box idea for an eye&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A full eye, anterior view&lt;/li&gt;
+&lt;li&gt;Sagittal view of eyeball&lt;/li&gt;
+&lt;li&gt;The iris&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="color"&gt;COLOR
+&lt;/h2&gt;&lt;p&gt;I had known about Pantone way before, but Pantone color of the year somehow became a big news recently and it felt the color had become a trendy influencers topic.
+The color of the 2021 was somehow a two-colors instead of one.
+&lt;img src="https://raffwh.github.io/p/eye-center-logo-2021/Pantone_2021.jpg"
+width="679"
+height="673"
+srcset="https://raffwh.github.io/p/eye-center-logo-2021/Pantone_2021_hu_ec891b2168690a44.jpg 480w, https://raffwh.github.io/p/eye-center-logo-2021/Pantone_2021_hu_5bd548f0f3b22345.jpg 1024w"
+loading="lazy"
+alt="Pantone 2021"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="242px"
+&gt;&lt;/p&gt;
+&lt;p&gt;There some info on the meaning of each color, and I thought they could fit to the department vision or current situation.
+So I decided to just use these 2 colors.&lt;/p&gt;
+&lt;h1 id="creation"&gt;CREATION
+&lt;/h1&gt;&lt;p&gt;I came up with three different styles.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://raffwh.github.io/p/eye-center-logo-2021/art_1.jpg"
+width="900"
+height="900"
+srcset="https://raffwh.github.io/p/eye-center-logo-2021/art_1_hu_171e57f5e19a0d38.jpg 480w, https://raffwh.github.io/p/eye-center-logo-2021/art_1_hu_2b1e311cf238abc9.jpg 1024w"
+loading="lazy"
+alt="Art 1"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt; &lt;img src="https://raffwh.github.io/p/eye-center-logo-2021/art_2.jpg"
+width="900"
+height="900"
+srcset="https://raffwh.github.io/p/eye-center-logo-2021/art_2_hu_459da5c5c3230713.jpg 480w, https://raffwh.github.io/p/eye-center-logo-2021/art_2_hu_2c3ce281401e1798.jpg 1024w"
+loading="lazy"
+alt="Art 2"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt; &lt;img src="https://raffwh.github.io/p/eye-center-logo-2021/art_3.jpg"
+width="900"
+height="900"
+srcset="https://raffwh.github.io/p/eye-center-logo-2021/art_3_hu_c6b0071cbfaa0021.jpg 480w, https://raffwh.github.io/p/eye-center-logo-2021/art_3_hu_13ad7975e6cea254.jpg 1024w"
+loading="lazy"
+alt="Art 3"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+&gt;&lt;/p&gt;
+&lt;h2 id="common-among-3"&gt;COMMON AMONG 3
+&lt;/h2&gt;&lt;p&gt;I couldn&amp;rsquo;t come up with three totally different ideas; so, these 3 have very similar workflows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I used Adobe Illustrator circular pattern&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First, I created a custom brush, based on some pattern of genetic icons I came up earlier.&lt;/li&gt;
+&lt;li&gt;Then, I created a circle line vector.&lt;/li&gt;
+&lt;li&gt;Finally, I applied the line using custom brush instead of a solid line.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The 2021 text is the same on all three&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;strong&gt;20&lt;/strong&gt; uses the gray color to mark both the unchanging part of the year (the two thousand), as well as that we just passed the year 2020, and the 20&lt;strong&gt;20&lt;/strong&gt; being marked gray can mean as the &lt;em&gt;off&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;21&lt;/strong&gt; uses the yellow (Illuminating) to mark the new year, and maybe the new meaning (we were just starting to get used to COVID19 life anyway).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="art-1"&gt;ART 1
+&lt;/h3&gt;&lt;p&gt;The eye part is based on the iris, while the line is more like line-chart but I can say it is like exon splices too.
+There is a flare on the inner lower left, just mimicking how eye icon has flare to show the transparency.&lt;/p&gt;
+&lt;h3 id="art-2"&gt;ART 2
+&lt;/h3&gt;&lt;p&gt;The eye base is technically a full front eye.
+The original logo of UMass Eye Center used this style of eye as well (and many other eye clinics).
+The line part was inspired a bit from the Southern blot, but technically it was created using R as a stacked bar graph.&lt;/p&gt;
+&lt;h3 id="art-3"&gt;ART 3
+&lt;/h3&gt;&lt;p&gt;The idea is similar to Art 1, but there is more flair added.
+The line part was like chromosome even though it was created with random ellipse tools.&lt;/p&gt;
+&lt;h1 id="selection"&gt;SELECTION
+&lt;/h1&gt;&lt;p&gt;In the end I selected Art 2 since I like the stacked bar graph line. Art 1 is good too, but it doesn&amp;rsquo;t really show like an eye. Art 3 is just too busy.&lt;/p&gt;
+&lt;h1 id="in-the-end"&gt;IN THE END
+&lt;/h1&gt;&lt;p&gt;The deparment had a form to submit the designs.
+I even created a report form to explain my thinking: &lt;img src="https://raffwh.github.io/p/eye-center-logo-2021/logo_report.jpg"
+width="966"
+height="1313"
+srcset="https://raffwh.github.io/p/eye-center-logo-2021/logo_report_hu_56279caacb55baa7.jpg 480w, https://raffwh.github.io/p/eye-center-logo-2021/logo_report_hu_a02e59bd6d634c85.jpg 1024w"
+loading="lazy"
+alt="report"
+class="gallery-image"
+data-flex-grow="73"
+data-flex-basis="176px"
+&gt;&lt;/p&gt;
+&lt;p&gt;But the decision makers in the end decided not to change their old logo at all 😓.&lt;/p&gt;</description></item><item><title>Readme for Excel file</title><link>https://raffwh.github.io/p/readme-excel/</link><pubDate>Sat, 22 Aug 2020 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/p/readme-excel/</guid><description>&lt;h1 id="background-story"&gt;BACKGROUND STORY
+&lt;/h1&gt;&lt;p&gt;While data analytic work now have plenty of platform and tools, many business are still using Excel as their main program/software/app.&lt;/p&gt;
+&lt;p&gt;Some of my works used Excel for a simple dashboard or even a work report.
+Sometimes I saw some Excel dashboard that is quite complicated and I have seen my colleagues were confused on how to use it.&lt;/p&gt;
+&lt;p&gt;In other cases, we received different datasets in Excel files. They could be a new data or just a transformed version of the larger data.
+But sometimes, we received the files almost every day due to the nature of the project.
+This has caused some confusions on what the data is about, or worse, the version of the revision (when the filename itself does not tell you about it).&lt;/p&gt;
+&lt;h1 id="solution"&gt;SOLUTION
+&lt;/h1&gt;&lt;p&gt;We tried to duplicate how a good data science project will have a README file.
+But for Excel, we can always have one tab for this readme, while the other tab is the content of the file.&lt;/p&gt;
+&lt;!--# comment --&gt;</description></item></channel></rss>
