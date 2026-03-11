@@ -3,7 +3,7 @@ title: Visualizing abstract formula for research paper
 description: Showcasing flip flop scores in a research data (AREDS clinical trial)
 slug: AREDS-score-flipflop
 date: 2020-12-02
-# image: cover.jpg
+image: sevscale_supFig_year_20201113_g.webp
 categories :  "blog"
 toc: false
 tags : [
@@ -101,7 +101,7 @@ but then went back to non-advanced stage.
 
 <!-- centered, controlled width -->
 <div align="left">
-  <img src="./sevscale_supFig_year_20201113_g.webp" alt="Figure" width="400">
+  <img src="./sevscale_supFig_year_20201113_g.webp" alt="Figure" width="70%">
 </div>
 
 ### Understanding the graph:
@@ -124,7 +124,7 @@ but then went back to non-advanced stage.
 
 ## Other version
 
-![GRAPH](./sevscale_supFig_visit_20200730_a.tiff)
+![GRAPH](./sevscale_supFig_year_20201113_g.webp)
 
 
 
