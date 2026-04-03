@@ -1,11 +1,10 @@
 # Change baseurl before deploy
 baseurl = "https://raffwh.github.io/"
 languageCode = "en-us"
-title = "Rafael Widjajahakim - Sample Works"
+title = "Rafael Widjajahakim"
 
 # Theme i18n support
 defaultContentLanguage = "en"
-
 
 hasCJKLanguage = false
 
@@ -16,10 +15,11 @@ provider = ""
 
 
 [social]
-github = "raffwh.github.com"
-linkedin = "linkedin.com/in/rafaelwidjajahakim"
+github = "raffwh"
+linkedin = "rafaelwidjajahakim"
 
 
 
 [pagination]
 pagerSize = 5
+
