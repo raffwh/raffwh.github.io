@@ -4,7 +4,7 @@ description: End-to-end machine learning workflow including feature engineering,
 slug: ml-pipeline-sklearn
 date: 2026-03-01
 image: ""
-categories: "data_science"
+categories: "Projects"
 toc: true
 tags: [
     Python,
@@ -14,7 +14,6 @@ tags: [
     cross_validation
 ]
 ---
-
 ## Overview
 
 This post documents an end-to-end supervised machine learning workflow built in Python during my graduate coursework at Boston University. The goal was to build a reproducible pipeline that handles data preprocessing, feature selection, model training, and evaluation — the kind of workflow that translates directly to real-world analytics problems.
@@ -70,11 +69,11 @@ pipeline = Pipeline(steps=[
 
 Models were compared using **Stratified K-Fold cross-validation** (k=5) to account for class imbalance and reduce variance in performance estimates.
 
-| Model | CV AUC (mean ± std) |
-|---|---|
-| Logistic Regression | 0.81 ± 0.03 |
-| Random Forest | 0.87 ± 0.02 |
-| Gradient Boosting | 0.89 ± 0.02 |
+| Model               | CV AUC (mean ± std) |
+| ------------------- | -------------------- |
+| Logistic Regression | 0.81 ± 0.03         |
+| Random Forest       | 0.87 ± 0.02         |
+| Gradient Boosting   | 0.89 ± 0.02         |
 
 ```python
 cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
