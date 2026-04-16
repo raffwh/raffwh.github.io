@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Rafael Widjajahakim</title><link>https://raffwh.github.io/page/</link><description>Recent content in Pages on Rafael Widjajahakim</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://raffwh.github.io/page/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://raffwh.github.io/about/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/about/</guid><description>&lt;h2 id="who-i-am"&gt;Who I Am
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m Rafael Widjajahakim — a data scientist in training with over a decade of hands-on work in biomedical research and pharmaceutical market research. I&amp;rsquo;m currently completing my &lt;strong&gt;Master of Science in Data Science at Boston University&lt;/strong&gt; while bridging the gap between clinical domain expertise and modern machine learning.&lt;/p&gt;
+&lt;p&gt;My path is a bit unconventional: I started in wet-lab research, moved into data-heavy clinical trial work, pivoted to pharma secondary research and analytics, and now I&amp;rsquo;m focused on building end-to-end data science skills that can make a real difference in health outcomes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="experience--background"&gt;Experience &amp;amp; Background
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Biomedical Research&lt;/strong&gt; — ~10 years of experience across ophthalmology clinical trials (AREDS), lipid research, and real-world evidence (RWE) studies&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pharma Market Research&lt;/strong&gt; — Line-of-therapy analyses, executive summaries, and dashboard reporting for pharmaceutical clients&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Science Internship (6 months)&lt;/strong&gt; — AWS EC2, Snowflake, Python-based data cleaning and pipeline work in a production environment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teaching Assistantship / Coursework&lt;/strong&gt; — Graduate-level modules in statistical modeling, machine learning, and data engineering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="technical-skills"&gt;Technical Skills
+&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Category&lt;/th&gt;
+&lt;th&gt;Tools&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Languages&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Python, R, SQL, SAS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;ML &amp;amp; Modeling&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;scikit-learn, pandas, GridSearchCV, cross-validation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Stats&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Biostatistics, hypothesis testing, regression, survival analysis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Visualization&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Tableau, PowerBI, ggplot2, matplotlib, seaborn, Adobe Illustrator&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Cloud &amp;amp; Data&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;AWS EC2, Snowflake, Git, Jupyter, VS Code&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Formats &amp;amp; Pipelines&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;ETL workflows, feature engineering, model evaluation&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="education"&gt;Education
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Boston University&lt;/strong&gt; — MS in Data Science &lt;em&gt;(in progress)&lt;/em&gt;&lt;br&gt;
+Relevant coursework: Machine Learning, Biostatistics, Statistical Programming, Data Engineering&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="what-im-working-on"&gt;What I&amp;rsquo;m Working On
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Building a stronger portfolio of end-to-end ML projects in Python&lt;/li&gt;
+&lt;li&gt;Deepening expertise in gradient boosting, hyperparameter optimization (Optuna), and NLP&lt;/li&gt;
+&lt;li&gt;Exploring real-world healthcare datasets for predictive modeling&lt;/li&gt;
+&lt;li&gt;Improving data storytelling through clean, precise visualizations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="beyond-data"&gt;Beyond Data
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m a photography and videography hobbyist with a soft spot for Fuji cameras and drone footage of nature. I enjoy hiking, specialty coffee, and the ongoing challenge of getting through my ever-growing backlog of unedited RAW files.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Feel free to reach out — &lt;a class="link" href="mailto:rafaelwh@bu.edu" &gt;rafaelwh@bu.edu&lt;/a&gt; · &lt;a class="link" href="https://linkedin.com/in/rafaelwidjajahakim" target="_blank" rel="noopener"
+&gt;LinkedIn&lt;/a&gt; · &lt;a class="link" href="https://github.com/raffwh" target="_blank" rel="noopener"
+&gt;GitHub&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Archives</title><link>https://raffwh.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/archives/</guid><description/></item><item><title>Links</title><link>https://raffwh.github.io/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/links/</guid><description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;links&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;GitHub&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;description&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;website&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;https://github.com&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;TypeScript&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;description&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;website&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;</description></item><item><title>Search</title><link>https://raffwh.github.io/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://raffwh.github.io/search/</guid><description/></item></channel></rss>
